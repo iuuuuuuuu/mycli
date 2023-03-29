@@ -1,0 +1,40 @@
+Arguments: 
+  Y:\NVM\NODEJS\node.exe Y:\NVM\NODEJS\node_modules\yarn\bin\yarn.js link
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Redis\;Y:\NVM;Y:\NVM\NODEJS;Y:\APK\Microsoft VS Code\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Iu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, stat 'C:\Users\Iu\AppData\Local\Yarn\Data\link\mycli\npm link && mycli'
+
+npm manifest: 
+  {
+    "name": "mycli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+      "mycli": "bin/cli.js",
+      "link": "npm link && mycli"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
